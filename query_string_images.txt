@@ -1,0 +1,13 @@
+query string
+
+https://www.google.com/search?
+sca_esv =   d9aed0d2e07b8d48&
+sxsrf   =   AE3TifPnocGTNmdF_Q25Qal_Y2iskZxSyw:1760814387046&
+udm     =   2&
+fbs     =      AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeuYzzFkfneXafNx6OMdA4MQRJc_t_TQjwHYrzlkIauOKiWCnruNfHTRmzt0RxosbrOMpYTFDxPGyD8T2B3g2diIu3ngkbY9zBvCWUufXsTFwoiRfzCo6PN174qxy5RWVWKD-YXE&
+q       =   ana+iribas+rud%C3%ADn&
+sa      =   X&ved=2ahUKEwizs7jguK6QAxXFgf0HHSIULlUQtKgLegQIFRAB&
+biw     =   1193&
+bih     =   598&
+dpr     =   1.5#vhid=5H-FDuiJ4MJoOM&
+vssid   =   mosaic

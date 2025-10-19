@@ -1,0 +1,49 @@
+https://www.google.com/search?
+q       =   djamila
+sca_esv =   7a55ddd728a7ba96&sxsrf=AE3TifOq1q-rdjXbIccb4TX6hQwgTMq8ew%3A1760809253397&
+source  =   hp&
+ei      =   JdHzaMTcFvOdhbIPqczWKQ&
+iflsig  =   AOw8s4IAAAAAaPPfNZTCBDX335HQLwaUVG1Bga6jjhW0&
+ved     =   0ahUKEwiEg8LQpa6QAxXzTkEAHSmmNQUQ4dUDCBo&
+uact    =   5&
+oq      =   djamila&
+gs_lp= Egdnd3Mtd2l6IgdkamFtaWxhMggQLhiABBjLATIIEAAYgAQYywEyCBAuGIAEGMsBMggQABiABBjLATIIEC4YgAQYywEyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLAUjXdVCmW1ikaXACeACQAQCYAXWgAcQGqgEDMy41uAEDyAEA-AEBmAIKoAL0BqgCCsICBxAjGCcY6gLCAgQQIxgnwgIQECMY8AUYgAQYJxjJAhiKBcICCxAAGIAEGJECGIoFwgIKEAAYgAQYQxiKBcICBRAAGIAEwgILEC4YgAQY0QMYxwHCAgoQIxiABBgnGIoFwgIFEC4YgATCAgoQLhiABBhDGIoFwgIMEAAYgAQYQxiKBRgKwgIKEAAYgAQYFBiHAsICCBAuGIAEGNQCwgIHEAAYgAQYCpgDCvEFBJUVHC18pvuSBwM1LjWgB7tfsgcDMy41uAfmBsIHBTAuNy4zyAci&
+sclient  =   gws-wiz
+
+
+Parameter
+Meaning / Function
+Example / Notes
+q
+Search query — the actual text you searched for
+djamila
+sca_esv
+Internal Google session or experiment version ID — used for analytics/testing
+7a55ddd728a7ba96
+sxsrf
+Cross-site request forgery token — security measure to prevent CSRF during searches
+AE3TifOq1q...<truncated>
+source
+Indicates where the search originated
+hp → means “homepage” (Google’s main search page)
+ei
+Encoded event ID — used internally to identify your query session
+JdHzaMTcFvOdhbIPqczWKQ
+iflsig
+Integrity / fingerprint signature — verifies request authenticity between client and Google
+AOw8s4IAAAAAaPPfNZTC...<truncated>
+ved
+Encoded tracking metadata — used for ranking, logging, and analytics of search events
+0ahUKEwiEg8LQpa6QAxXzTkEAHSmmNQUQ4dUDCBo
+uact
+User action type — numeric code indicating what kind of action triggered the search
+5 (typical for “Enter key pressed” or search button click)
+oq
+Original query — the initial text you entered before possible Google autocompletion
+djamila
+gs_lp
+Google Suggest Layer Parameters — long encoded string describing autocomplete, model tuning, and ranking context
+Egdnd3Mtd2l6IgdkamFtaWxhMggQ...<truncated>
+sclient
+Search client identifier — identifies which Google service is handling the request
+gws-wiz → stands for Google Web Server Wizard (standard web search UI)

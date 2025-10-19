@@ -1,0 +1,66 @@
+Query Strings Advanced Search
+
+1. All these words:
+https://www.google.com/search?
+as_q    =   tri-colour+rat+terrier&
+as_epq  =   &
+as_oq   =   &
+as_eq   =   &
+as_nlo  =   &
+as_nhi  =   &
+lr      =   &
+cr      =   &
+as_qdr  =   all&
+as_sitesearch   =&
+as_occt         =any&
+as_filetype     =&
+tbs     =
+
+2. Exact words or phrase
+https://www.google.com/search?
+as_q    =   &
+as_epq  =   %22rat+terrier%22&
+as_oq   =   &
+as_eq   =   &
+as_nlo  =   &
+as_nhi  =   &
+lr      =   &
+cr      =   &
+as_qdr  =   all&
+as_sitesearch   =   &
+as_occt         =   any&
+as_filetype     =   &
+tbs             =
+
+3. Any of these words
+https://www.google.com/search?
+as_q    =   &
+as_epq  =   &
+as_oq   =   miniature+OR+standard&
+as_eq   =   &
+as_nlo  =   &
+as_nhi  =   &
+lr      =   &
+cr      =   &
+as_qdr  =   all&
+as_sitesearch   =   &
+as_occt         =   any&
+as_filetype     =   &
+tbs             =
+
+4. None of these words
+https://www.google.com/search?
+as_q    =   &
+as_epq  =   &
+as_oq   =   &  
+as_eq   =   -rodent%2C+-%22Jack+Russel%22&
+as_nlo  =   &
+as_nhi  =   &
+lr      =   &
+cr      =   &
+as_qdr  =   all&
+as_sitesearch   =   &
+as_occt         =   any&
+as_filetype     =   &
+tbs             =
+
