@@ -1,1 +1,9 @@
-https://www.google.com/search?q=pythagoras&btnI=I%27m+Feeling+Lucky&sca_esv=77667d73f37b3433&hl=en&sxsrf=AE3TifOw702dLfzwGGmpqz39kEmCEN0Uew%3A1760876642968&source=hp&ei=Ytj0aPbNOLChi-gP9YnSoAU&iflsig=AOw8s4IAAAAAaPTmcr3247QJNkYHx4Ubgp9T5bLQtC6T
+https://www.google.com/search?
+q       =   pythagoras&
+btnI    =   I%27m+Feeling+Lucky&
+sca_esv =   77667d73f37b3433&
+hl      =   en&
+sxsrf   =   AE3TifOw702dLfzwGGmpqz39kEmCEN0Uew%3A1760876642968&
+source  =   hp&
+ei      =   Ytj0aPbNOLChi-gP9YnSoAU&
+iflsig  =   AOw8s4IAAAAAaPTmcr3247QJNkYHx4Ubgp9T5bLQtC6T
