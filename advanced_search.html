@@ -20,11 +20,18 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-white">
     <div class="container-fluid">
-        <a class="navbar-brand h3 mt-2 text-primary" href="">Advanced Search</a>
+        <div class="my-4 ms-4 d-flex flex-row justify-content-start">
+            <span class="h1" style="color:yellowgreen;">D</span>
+            <span class="h1" style="color:red;">o</span>
+            <span class="h1" style="color:aquamarine;">o</span>
+            <span class="h1" style="color:blue;">g</span>
+            <span class="h1" style="color:orange;">l</span>
+            <span class="h1" style="color:green;">e</span>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+        <div class="collapse navbar-collapse d-flex justify-content-end align-items-start" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="./index.html">Standard Search</a>
@@ -36,64 +43,84 @@
         </div>
     </div>
     </nav>
+    <div class="container-fluid border-bottom">
+        <div class="container my-5 h3 fw-normal text-danger"> Advanced Search </div>
+    </div>
 
-    <div class="container d-flex flex-column justify-content-start align-items-center search-container">
-        <div class="my-4 d-flex flex-row justify-content-center">
-            <span class="display-1" style="color:yellowgreen;">D</span>
-            <span class="display-1" style="color:red;">o</span>
-            <span class="display-1" style="color:yellow;">o</span>
-            <span class="display-1" style="color:blue;">g</span>
-            <span class="display-1" style="color:orange;">l</span>
-            <span class="display-1" style="color:green;">e</span>
-        </div>
-        
+    <div class="container my-5">
         <form class="text-center" action="https://www.google.com/search">
-            <table class="table w-100 table-borderless" style="table-layout: fixed;">
-                <colgroup>
-                    <col style="width: 20%">
-                    <col style="width: 50%">
-                    <col style="width: 30%">
-                </colgroup>
-                <tr>
-                    <td class="px-3 mb-3 text-start" colspan="2"><h5>Find pages with:</h5></td>
-                    <td class="px-3 mb-3 text-start"><h5>Do this in the search box:</h5></td>
-                </tr>
-                <tr>
-                    <td class="px-3 pt-3 text-start"><h6>All these words:</h6></td>
-                    <td class="px-3">
-                        <input class="form-control rounded-3 mb-3 search-input shadow-sm" type="text" name="as_q">
-                    </td>
-                    <td class="px-3 pt-2 text-start">Type the important words. e.g.: <b>tri-colour rat terrier</b></td>
-                </tr>
-                <tr>
-                    <td class="px-3 pt-3 text-start"><h6>This exact word or phrase:</h6></td>
-                    <td class="px-3">
-                        <input class="form-control rounded-3 mb-3 search-input shadow-sm" type="text" name="as_epq">
-                    </td>
-                    <td class="px-3 pt-2 text-start">Put exact words in quotes, e.g.: <b>"rat terrier"</b></td>
-                </tr>
-                <tr>
-                    <td class="px-3 pt-3 text-start"><h6>Any of these words:</h6></td>
-                    <td class="px-3">
-                        <input class="form-control rounded-3 mb-3 search-input shadow-sm" type="text" name="as_oq">
-                    </td>
-                    <td class="px-3 pt-2 text-start">Type <b>OR</b> between all the words you want, e.g.: <b>miniature OR standard</b></td>
-                </tr>
-                <tr>
-                    <td class="px-3 pt-3 text-start"><h6>None of these words:</h6></td>
-                    <td class="px-3">
-                        <input class="form-control rounded-3 mb-3 search-input shadow-sm" type="text" name="as_eq">
-                    </td>
-                    <td class="px-3 pt-2 text-start">Put a minus sign just before words that you don't want, e.g.:<b> -rodent, -"Jack Russell"</b></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><button class="btn btn-primary search-btn rounded-3 shadow-sm" type="submit">Advanced Search</button></td>
-                    <td></td>
-                </tr>
-            </table>
-            <input type="hidden" name="as_qdr" value="all"> 
-            <input type="hidden" name="as_occt" value="any"> 
+            <div class="row align-items-center">
+                <div class="col-sm-3">
+                    <div class="py-3 h4 text-start">Find pages with ... </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="py-3"></div>
+                </div>
+                <!-- <div class="col-sm-4 col-lg-3 d-none d-lg-block">
+                    <div class="py-3 h4 text-start">do this in the search box:</div>
+                </div> -->
+            </div>
+            <div class="row align-items-center">
+                <div class="col-sm-3">
+                    <div class="py-3 text-start h5 fw-normal">all these words: </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="py-3">
+                        <input class="form-control rounded-1 p-2 mb-3 search-input shadow-sm" type="text" name="as_q">
+                    </div>
+                </div>
+                <!-- <div class="col-sm-4 col-lg-3 d-none d-lg-block"> 
+                    <div class="py-3 h5 text-start"> type the important words. e.g.: <b>tri-colour rat terrier</b> </div>
+                </div> -->
+            </div>
+            <div class="row align-items-center">
+                <div class="col-sm-3">
+                    <div class="py-3 h5 text-start">this exact word or phrase: </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="py-3 ">
+                        <input class="form-control rounded-1 p-2 shadow-sm" type="text" name="as_epq">
+                    </div>
+                </div>
+                <!-- <div class="col-sm-4 col-lg-3 d-none d-sm-block"> 
+                    <div class="py-3 h5 text-start">put exact words in quotes, e.g.: <b>"rat terrier"</b> </div>
+                </div> -->
+            </div>
+            <div class="row align-items-center">
+                <div class="col-sm-3">
+                    <div class="py-3 h5 text-start">any of these words: </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="py-3 ">
+                        <input class="form-control rounded-2 p-2 search-input shadow-sm" type="text" name="as_oq">
+                    </div>
+                </div>
+                <!-- <div class="col-sm-4 col-lg-3 d-none d-sm-block"> 
+                    <div class="p-y3 h5 text-start">type <b>OR</b> between all the words you want, e.g.: <b>miniature OR standard</b></div>
+                </div> -->
+            </div>
+            <div class="row align-items-center">
+                <div class="col-sm-3">
+                    <div class="p-3y h5 text-start">none of these words: </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="py-3 ">
+                        <input class="form-control rounded-1 p-2 search-input shadow-sm" type="text" name="as_eq">
+                    </div>
+                </div>
+                <!-- <div class="col-sm-4 col-lg-3 d-none d-sm-block"> 
+                    <div class="py-3 h5 text-start">put a minus sign just before words that you don't want, e.g.:<b> -rodent, -"Jack Russell"</b></div>
+                </div> -->
+            </div>
+            <div class="row align-items-center">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-end">
+                    <button class="btn btn-primary search-btn rounded-3 shadow-sm fw-bold p3" type="submit">Advanced Search</button>
+                </div>
+                <!-- <div class="col-sm-4 col-lg-3 d-none d-sm-block"></div> -->
+            </div>
+                <input type="hidden" name="as_qdr" value="all"> 
+                <input type="hidden" name="as_occt" value="any"> 
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
