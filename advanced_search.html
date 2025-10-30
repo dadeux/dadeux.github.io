@@ -44,80 +44,88 @@
     </div>
     </nav>
     <div class="container-fluid border-bottom">
-        <div class="container my-5 h3 fw-normal text-danger">Advanced Search </div>
+        <div class="ms-5 mb-5 mt-3 h3 fw-normal text-start text-danger">Advanced Search </div>
     </div>
 
-    <div class="container my-5">
-        <form class="text-center" action="https://www.google.com/search">
+    <div class="container-fluid my-5">
+        <form class="" action="https://www.google.com/search">
             <div class="row align-items-center">
-                <div class="col-sm-3">
-                    <div class="py-3 h4 text-start">Find pages with ... </div>
+                <div class="col-auto" style="width: 275px;">
+                    <div class="ms-5 py-3 h4 fw-normal text-start">Find pages with ... </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col flex-grow-1" style="min-width: 300px; max-width: 950px">
                     <div class="py-3"></div>
                 </div>
-                <!-- <div class="col-sm-4 col-lg-3 d-none d-lg-block">
-                    <div class="py-3 h4 text-start">do this in the search box:</div>
-                </div> -->
+                <div class="col-xl-4 d-none d-xl-block">
+                    <div class="py-3 h5 fw-bold text-start" style="color: grey;">To do this in the search box:</div>
+                </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-sm-3">
-                    <div class="py-3 text-start h5 fw-normal">all these words: </div>
+                <div class="col-auto" style="width: 300px;">
+                    <div class="ms-5 py-3 h5 fw-normal text-start">all these words: </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="py-3">
+                <div class="col flex-grow-1" style="min-width: 300px; max-width: 950px">
+                    <div class="ms-5 py-3">
                         <input class="form-control rounded-1 p-2 mb-3 search-input shadow-sm" type="text" name="as_q">
                     </div>
                 </div>
-                <!-- <div class="col-sm-4 col-lg-3 d-none d-lg-block"> 
-                    <div class="py-3 h5 text-start"> type the important words. e.g.: <b>tri-colour rat terrier</b> </div>
-                </div> -->
+                <div class="col-xl-4 d-none d-xl-block"> 
+                    <div class="pb-3 text-start align-items-center">
+                        Type the important words, e.g.: <span><pre class="d-inline fs-6">tri-colour rat terrier</pre></span>
+                    </div>
+                </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-sm-3">
-                    <div class="py-3 h5 text-start">this exact word or phrase: </div>
+                <div class="col-auto" style="width: 300;">
+                    <div class="ms-5 py-3 h5 fw-normal text-start">this exact word or phrase: </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="py-3 ">
+                <div class="col flex-grow-1" style="min-width: 300px; max-width: 950px">
+                    <div class="ms-5 py-3 ">
                         <input class="form-control rounded-1 p-2 shadow-sm" type="text" name="as_epq">
                     </div>
                 </div>
-                <!-- <div class="col-sm-4 col-lg-3 d-none d-sm-block"> 
-                    <div class="py-3 h5 text-start">put exact words in quotes, e.g.: <b>"rat terrier"</b> </div>
-                </div> -->
+                <div class="col-xl-4 d-none d-xl-block"> 
+                    <div class="pb-3 text-start align-items-center">
+                        Put exact words in quotes, e.g.: <span><pre class="d-inline fs-6">"rat terrier"</pre></span>
+                    </div>
+                </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-sm-3">
-                    <div class="py-3 h5 text-start">any of these words: </div>
+                <div class="col-auto" style="width: 300px;">
+                    <div class="ms-5 h5 text-start fw-normal text-nowrap">any of these words: </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="py-3 ">
+                <div class="col flex-grow-1" style="min-width: 300px; max-width: 950px">
+                    <div class="ms-5 py-3 ">
                         <input class="form-control rounded-2 p-2 search-input shadow-sm" type="text" name="as_oq">
                     </div>
                 </div>
-                <!-- <div class="col-sm-4 col-lg-3 d-none d-sm-block"> 
-                    <div class="p-y3 h5 text-start">type <b>OR</b> between all the words you want, e.g.: <b>miniature OR standard</b></div>
-                </div> -->
+                <div class="col-xl-4 d-none d-xl-block"> 
+                    <div class="pb-3 text-start align-items-center">
+                         Type OR between all the words you want, e.g.: <span><pre class="d-inline fs-6">miniature OR standard</pre></span>
+                    </div>
+                </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-sm-3">
-                    <div class="p-3y h5 text-start">none of these words: </div>
+                <div class="col-auto" style="width: 300px;">
+                    <div class="ms-5 h5 text-start fw-normal text-nowrap">none of these words: </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="py-3 ">
+                <div class="col flex-grow-1" style="min-width: 300px; max-width: 950px">
+                    <div class="ms-5 py-3 ">
                         <input class="form-control rounded-1 p-2 search-input shadow-sm" type="text" name="as_eq">
                     </div>
                 </div>
-                <!-- <div class="col-sm-4 col-lg-3 d-none d-sm-block"> 
-                    <div class="py-3 h5 text-start">put a minus sign just before words that you don't want, e.g.:<b> -rodent, -"Jack Russell"</b></div>
-                </div> -->
+                <div class="col-xl-4 d-none d-xl-block"> 
+                    <div class="pb-3 text-start align-items-center">
+                       Put a minus sign just before words that you don't want , e.g.: <span><pre class="d-inline fs-6">-rodent, -"Jack Russell"</pre></span>
+                    </div>
+                </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6 text-end">
-                    <button class="btn btn-primary search-btn rounded-3 shadow-sm fw-bold p3" type="submit">Advanced Search</button>
+                <div class="col-auto" style="width: 300px"></div>
+                <div class="col text-end flex-grow-1" style="max-width: 950px;">
+                    <button class="btn btn-primary search-btn rounded-3 shadow-sm fw-bold p2" type="submit">Advanced Search</button>
                 </div>
-                <!-- <div class="col-sm-4 col-lg-3 d-none d-sm-block"></div> -->
+                <div class="col-xl-4 d-none d-xl-block"></div>
             </div>
                 <input type="hidden" name="as_qdr" value="all"> 
                 <input type="hidden" name="as_occt" value="any"> 
